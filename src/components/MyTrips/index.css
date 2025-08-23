@@ -1,0 +1,90 @@
+/* index.css */
+
+/* Empty state */
+.center {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.empty-img {
+  width: 220px;
+  margin-bottom: 15px;
+}
+
+.center h3 {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.caption {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Page layout */
+.page {
+  padding: 20px 0;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+/* Trips grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Trip card */
+.trip-card {
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.trip-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.trip-card h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #212529;
+}
+
+.trip-card .caption {
+  margin-bottom: 12px;
+}
+
+/* Trip details line */
+.trip-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 6px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.trip-line:last-child {
+  border-bottom: none;
+}
+.trip-card .actions {
+  margin-top: 12px;
+  text-align: right;
+}
+
+.trip-card .btn-danger {
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}

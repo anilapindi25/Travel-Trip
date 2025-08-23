@@ -1,0 +1,11 @@
+.page{padding:24px}
+.banner{
+  background: linear-gradient(120deg, #304766, #2563eb);
+  color:#fff;border-radius:16px;padding:36px;text-align:center;
+}
+.banner h1{margin:0 0 8px 0;font-size:32px}
+.banner p{margin:0 0 16px 0;color:#f1f5f9}
+.page-title{margin:0 0 12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.center{display:grid;place-items:center;min-height:60vh;text-align:center}
+.logo-caveat{font-family:'Caveat', cursive}

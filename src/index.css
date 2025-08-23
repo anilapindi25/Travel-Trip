@@ -1,0 +1,52 @@
+:root{
+  --primary:#2563eb;
+  --primary-2:#3b82f6;
+  --bg:#ffffff;
+  --muted:#64748b;
+  --text:#1e293b;
+  --surface:#dbeafe;
+  --border:#e2e8f0;
+}
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji';
+  color:var(--text);
+  background:#fff;
+}
+button{font-family:inherit}
+a{color:inherit}
+.container{max-width:980px;margin:0 auto;padding:16px}
+.input, .select{
+  width:100%;
+  padding:10px 12px;
+  border:1px solid var(--border);
+  border-radius:8px;
+  font-size:14px;
+}
+.label{
+  font-size:14px;
+  color:#334155;
+  margin-bottom:6px;
+  display:block;
+}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.card{
+  background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px;
+}
+.btn{
+  border:none;border-radius:8px;padding:10px 16px;cursor:pointer;font-weight:600;
+}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-ghost{background:transparent;border:1px solid var(--border);color:#334155}
+.btn-block{width:100%}
+.caption{color:var(--muted);font-size:13px}
+.stepper{display:flex;gap:16px;align-items:center;justify-content:center;margin:18px 0 24px}
+.step{display:flex;align-items:center;gap:8px;color:#475569}
+.step .dot{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--border);background:#fff}
+.step.active .dot{border-color:var(--primary);color:#fff;background:var(--primary)}
+.step.done .dot{border-color:var(--primary-2);background:#fff}
+.error-text{color:#e11d48;font-size:13px;margin-top:6px}
+.hide{display:none}

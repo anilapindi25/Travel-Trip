@@ -1,0 +1,67 @@
+/* .tt-header{background:#2563eb;color:#fff;position:sticky;top:0;z-index:10}
+.tt-wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.tt-logo{color:#fff;text-decoration:none;font-size:28px}
+.tt-nav{display:flex;align-items:center;gap:16px}
+.tt-nav a{color:#fff;text-decoration:none}
+.tt-nav .btn-ghost{border-color:#fff;color:#fff} */
+
+/* index.css */
+
+/* Header wrapper */
+.tt-header {
+  background: #0d6efd; /* Bootstrap primary */
+  padding: 10px 0;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Inner flex container */
+.tt-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.tt-logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Nav links */
+.tt-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tt-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.tt-nav a:hover {
+  color: #ffc107; /* Bootstrap warning accent */
+}
+
+/* Logout button */
+.tt-nav .btn {
+  padding: 5px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.tt-nav .btn:hover {
+  background: #fff;
+  color: #0d6efd;
+  border-color: #fff;
+}

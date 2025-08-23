@@ -1,0 +1,31 @@
+.nf-img{width:260px;max-width:90%;margin-bottom:10px}
+/* index.css */
+
+/* Center layout */
+.center {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Image */
+.nf-img {
+  width: 260px;
+  max-width: 90%;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.center h2 {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #212529;
+}
+
+/* Caption text (reuse global style if available) */
+.caption {
+  font-size: 14px;
+  color: #6c757d;
+}
